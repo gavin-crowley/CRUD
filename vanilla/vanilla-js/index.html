@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title></title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.png">
+</head>
+
+<body>
+    <div class="container">
+        <h1>CRUD App with Vanilla JS</h1>
+        <div class="flex-row">
+            <div class="flex-large">
+
+                <h2>Add user</h2>
+                <form>
+                    <label>Name</label>
+                    <input type="text" name="name" id="name"  />
+                    <label>Username</label>
+                    <input type="text" name="username" id="username" />
+                    <div class="form-action-buttons">
+                    <button>Add new user</button>
+                    </div>
+                </form>
+
+                <!-- <h2>Edit user</h2>
+                <form>
+                    <label>Name</label>
+                    <input type="text" name="name" value='' />
+                    <label>Username</label>
+                    <input type="text" name="username" value='' />
+                    <button>Update user</button>
+                    <button class="button muted-button">
+                        Cancel
+                    </button>
+                </form> -->
+
+
+            </div>
+
+            <div class="flex-large">
+                <h2>View users</h2>
+
+
+                <table class="list" id="userList">
+                    <thead>
+                        <tr>
+                            <th>Full Name</th>
+                            <th>User Name</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+
+                <!-- <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Username</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="user-list">
+                            <td></td>
+                            <td></td>
+                            <td>
+                                <button class="button muted-button">
+                                    Edit
+                                </button>
+                                <button class="button muted-button">
+                                    Delete
+                                </button>
+                            </td>
+                        </tr>
+
+                        ) : (
+                        <tr>
+                          <td>No users</td>
+                        </tr>
+                    </tbody>
+                </table> -->
+            </div>
+        </div>
+    </div>
+<script src="./js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+.center {
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.user {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.black {
+    padding: 4px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.edit {
+    margin-right: 8px;
+}
+
+.red {
+    border: 2px dotted red;
+    margin: 10px;
+    padding: 4px;
+}
